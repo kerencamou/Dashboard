@@ -1,0 +1,149 @@
+{
+  "schema_version": "1.0",
+  "synthetic": true,
+  "as_of": "2027-01-11",
+  "mode": "draft_only",
+  "execution_enabled": false,
+  "evidence_limit": "Exact quotations are checked; semantic accuracy still requires a person.",
+  "decisions": [
+    {
+      "text": "Test two fictional creative concepts.",
+      "evidence": [
+        {
+          "source_id": "S1",
+          "quote": "Demo Coordinator: We agreed to test two fictional creative concepts. Demo Designer will prepare the concepts by 2027-01-12."
+        }
+      ]
+    }
+  ],
+  "execution_order": [
+    "T1",
+    "T2",
+    "T3",
+    "T4",
+    "T5"
+  ],
+  "tasks": [
+    {
+      "id": "T1",
+      "title": "Prepare two fictional creative concepts",
+      "owner": "Demo Designer",
+      "due": "2027-01-12",
+      "action": "internal",
+      "impact": "medium",
+      "depends_on": [],
+      "approved": false,
+      "evidence": [
+        {
+          "source_id": "S1",
+          "quote": "Demo Coordinator: We agreed to test two fictional creative concepts. Demo Designer will prepare the concepts by 2027-01-12."
+        }
+      ],
+      "status": "ready_for_internal_review",
+      "blockers": [],
+      "overdue": false,
+      "priority_score": 5
+    },
+    {
+      "id": "T2",
+      "title": "Review fictional concepts",
+      "owner": "Demo Reviewer",
+      "due": "2027-01-13",
+      "action": "internal",
+      "impact": "medium",
+      "depends_on": [
+        "T1"
+      ],
+      "approved": false,
+      "evidence": [
+        {
+          "source_id": "S2",
+          "quote": "Demo Reviewer: I will review the concepts by 2027-01-13, after the design task is complete. Publication depends on completion of my review. The publication owner and date are not confirmed."
+        }
+      ],
+      "status": "blocked",
+      "blockers": [
+        "Dependencies require verified completion: T1"
+      ],
+      "overdue": false,
+      "priority_score": 5
+    },
+    {
+      "id": "T3",
+      "title": "Publish reviewed demo concepts",
+      "owner": null,
+      "due": null,
+      "action": "publish",
+      "impact": "high",
+      "depends_on": [
+        "T2"
+      ],
+      "approved": false,
+      "evidence": [
+        {
+          "source_id": "S2",
+          "quote": "Demo Reviewer: I will review the concepts by 2027-01-13, after the design task is complete. Publication depends on completion of my review. The publication owner and date are not confirmed."
+        }
+      ],
+      "status": "blocked",
+      "blockers": [
+        "Owner needs confirmation",
+        "Due date needs confirmation",
+        "Dependencies require verified completion: T2",
+        "Human approval must be obtained outside this demo"
+      ],
+      "overdue": false,
+      "priority_score": 5
+    },
+    {
+      "id": "T4",
+      "title": "Draft the synthetic team recap",
+      "owner": "Demo Coordinator",
+      "due": "2027-01-10",
+      "action": "internal",
+      "impact": "low",
+      "depends_on": [],
+      "approved": false,
+      "evidence": [
+        {
+          "source_id": "S3",
+          "quote": "Demo Coordinator: I will draft the team recap by 2027-01-10. Sending the recap depends on finishing that draft. I will send it by 2027-01-11 after separate human approval."
+        }
+      ],
+      "status": "ready_for_internal_review",
+      "blockers": [],
+      "overdue": true,
+      "priority_score": 5
+    },
+    {
+      "id": "T5",
+      "title": "Send the synthetic team recap",
+      "owner": "Demo Coordinator",
+      "due": "2027-01-11",
+      "action": "send",
+      "impact": "medium",
+      "depends_on": [
+        "T4"
+      ],
+      "approved": false,
+      "evidence": [
+        {
+          "source_id": "S3",
+          "quote": "Demo Coordinator: I will draft the team recap by 2027-01-10. Sending the recap depends on finishing that draft. I will send it by 2027-01-11 after separate human approval."
+        }
+      ],
+      "status": "blocked",
+      "blockers": [
+        "Dependencies require verified completion: T4",
+        "Human approval must be obtained outside this demo"
+      ],
+      "overdue": false,
+      "priority_score": 5
+    }
+  ],
+  "summary": {
+    "total": 5,
+    "blocked": 3,
+    "overdue": 1
+  }
+}

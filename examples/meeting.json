@@ -1,0 +1,110 @@
+{
+  "schema_version": "1.0",
+  "synthetic": true,
+  "as_of": "2027-01-11",
+  "source": {
+    "S1": "Demo Coordinator: We agreed to test two fictional creative concepts. Demo Designer will prepare the concepts by 2027-01-12.",
+    "S2": "Demo Reviewer: I will review the concepts by 2027-01-13, after the design task is complete. Publication depends on completion of my review. The publication owner and date are not confirmed.",
+    "S3": "Demo Coordinator: I will draft the team recap by 2027-01-10. Sending the recap depends on finishing that draft. I will send it by 2027-01-11 after separate human approval.",
+    "S4": "Demo Reviewer: A hypothetical budget adjustment is a proposal only. We have not agreed to spend anything."
+  },
+  "decisions": [
+    {
+      "text": "Test two fictional creative concepts.",
+      "evidence": [
+        {
+          "source_id": "S1",
+          "quote": "Demo Coordinator: We agreed to test two fictional creative concepts. Demo Designer will prepare the concepts by 2027-01-12."
+        }
+      ]
+    }
+  ],
+  "tasks": [
+    {
+      "id": "T1",
+      "title": "Prepare two fictional creative concepts",
+      "owner": "Demo Designer",
+      "due": "2027-01-12",
+      "action": "internal",
+      "impact": "medium",
+      "depends_on": [],
+      "approved": false,
+      "evidence": [
+        {
+          "source_id": "S1",
+          "quote": "Demo Coordinator: We agreed to test two fictional creative concepts. Demo Designer will prepare the concepts by 2027-01-12."
+        }
+      ]
+    },
+    {
+      "id": "T2",
+      "title": "Review fictional concepts",
+      "owner": "Demo Reviewer",
+      "due": "2027-01-13",
+      "action": "internal",
+      "impact": "medium",
+      "depends_on": [
+        "T1"
+      ],
+      "approved": false,
+      "evidence": [
+        {
+          "source_id": "S2",
+          "quote": "Demo Reviewer: I will review the concepts by 2027-01-13, after the design task is complete. Publication depends on completion of my review. The publication owner and date are not confirmed."
+        }
+      ]
+    },
+    {
+      "id": "T3",
+      "title": "Publish reviewed demo concepts",
+      "owner": null,
+      "due": null,
+      "action": "publish",
+      "impact": "high",
+      "depends_on": [
+        "T2"
+      ],
+      "approved": false,
+      "evidence": [
+        {
+          "source_id": "S2",
+          "quote": "Demo Reviewer: I will review the concepts by 2027-01-13, after the design task is complete. Publication depends on completion of my review. The publication owner and date are not confirmed."
+        }
+      ]
+    },
+    {
+      "id": "T4",
+      "title": "Draft the synthetic team recap",
+      "owner": "Demo Coordinator",
+      "due": "2027-01-10",
+      "action": "internal",
+      "impact": "low",
+      "depends_on": [],
+      "approved": false,
+      "evidence": [
+        {
+          "source_id": "S3",
+          "quote": "Demo Coordinator: I will draft the team recap by 2027-01-10. Sending the recap depends on finishing that draft. I will send it by 2027-01-11 after separate human approval."
+        }
+      ]
+    },
+    {
+      "id": "T5",
+      "title": "Send the synthetic team recap",
+      "owner": "Demo Coordinator",
+      "due": "2027-01-11",
+      "action": "send",
+      "impact": "medium",
+      "depends_on": [
+        "T4"
+      ],
+      "approved": false,
+      "evidence": [
+        {
+          "source_id": "S3",
+          "quote": "Demo Coordinator: I will draft the team recap by 2027-01-10. Sending the recap depends on finishing that draft. I will send it by 2027-01-11 after separate human approval."
+        }
+      ]
+    }
+  ]
+}
