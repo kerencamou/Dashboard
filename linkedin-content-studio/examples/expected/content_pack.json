@@ -1,0 +1,196 @@
+{
+  "schema_version": "1.0",
+  "synthetic": true,
+  "topic": "Clearer creative feedback",
+  "audience": "Agency founders and marketing team leads",
+  "timezone": "America/Hermosillo",
+  "mode": "draft_only",
+  "ai_provider_connected": false,
+  "publishing_connected": false,
+  "assets": [
+    {
+      "id": "LI-01",
+      "format": "insight",
+      "hook": "Before asking for another revision, clarify the decision.",
+      "content": "Before asking for another revision, clarify the decision.\n\nMake feedback specific enough that another person can act on it.\n\nA useful creative brief names the audience and the decision the content should support.\n\nFeedback is easier to act on when it identifies the specific passage and the desired change.\n\nWhich part of creative review would you clarify first?",
+      "claim_ids": [
+        "C1",
+        "C2"
+      ],
+      "suggested_date": "2027-01-11",
+      "status": "draft",
+      "publish_allowed": false,
+      "review_flags": [
+        "Human review required: meaning, voice, claims, and final format"
+      ],
+      "characters": 362,
+      "words": 58
+    },
+    {
+      "id": "LI-02",
+      "format": "contrarian",
+      "hook": "More feedback does not automatically mean clearer feedback.",
+      "content": "More feedback does not automatically mean clearer feedback.\n\nA different way to approach clearer creative feedback:\n\nSeparating factual corrections from personal preferences helps a reviewer explain the reason for a request.\n\nMake feedback specific enough that another person can act on it.\n\nWhich part of creative review would you clarify first?",
+      "claim_ids": [
+        "C3"
+      ],
+      "suggested_date": "2027-01-13",
+      "status": "draft",
+      "publish_allowed": false,
+      "review_flags": [
+        "Human review required: meaning, voice, claims, and final format"
+      ],
+      "characters": 346,
+      "words": 51
+    },
+    {
+      "id": "LI-03",
+      "format": "checklist",
+      "hook": "Four checks before you return a creative draft.",
+      "content": "Four checks before you return a creative draft.\n\nA practical review checklist:\n\n1. A useful creative brief names the audience and the decision the content should support.\n2. Feedback is easier to act on when it identifies the specific passage and the desired change.\n3. Separating factual corrections from personal preferences helps a reviewer explain the reason for a request.\n4. Assigning one final reviewer gives a draft a clear next step.\n\nWhich part of creative review would you clarify first?",
+      "claim_ids": [
+        "C1",
+        "C2",
+        "C3",
+        "C4"
+      ],
+      "suggested_date": "2027-01-15",
+      "status": "draft",
+      "publish_allowed": false,
+      "review_flags": [
+        "Human review required: meaning, voice, claims, and final format"
+      ],
+      "characters": 498,
+      "words": 81
+    },
+    {
+      "id": "LI-04",
+      "format": "carousel_outline",
+      "hook": "From vague comments to actionable creative feedback.",
+      "content": "From vague comments to actionable creative feedback.\n\nSlide 1 \u2014 Make feedback specific enough that another person can act on it.\nSlide 2 \u2014 A useful creative brief names the audience and the decision the content should support.\nSlide 3 \u2014 Feedback is easier to act on when it identifies the specific passage and the desired change.\nSlide 4 \u2014 Separating factual corrections from personal preferences helps a reviewer explain the reason for a request.\nSlide 5 \u2014 Assigning one final reviewer gives a draft a clear next step.\nSlide 6 \u2014 Which part of creative review would you clarify first?",
+      "claim_ids": [
+        "C1",
+        "C2",
+        "C3",
+        "C4"
+      ],
+      "suggested_date": "2027-01-18",
+      "status": "draft",
+      "publish_allowed": false,
+      "review_flags": [
+        "Human review required: meaning, voice, claims, and final format"
+      ],
+      "characters": 584,
+      "words": 101
+    },
+    {
+      "id": "LI-05",
+      "format": "video_script",
+      "hook": "A short script for explaining your next revision.",
+      "content": "A short script for explaining your next revision.\n\n[Opening]\nMake feedback specific enough that another person can act on it.\n\n[Main points]\nA useful creative brief names the audience and the decision the content should support.\nSeparating factual corrections from personal preferences helps a reviewer explain the reason for a request.\n\n[Closing]\nWhich part of creative review would you clarify first?",
+      "claim_ids": [
+        "C1",
+        "C3"
+      ],
+      "suggested_date": "2027-01-20",
+      "status": "draft",
+      "publish_allowed": false,
+      "review_flags": [
+        "Human review required: meaning, voice, claims, and final format"
+      ],
+      "characters": 402,
+      "words": 61
+    },
+    {
+      "id": "LI-06",
+      "format": "poll",
+      "hook": "Where does creative review get stuck for your team?",
+      "content": "Where does creative review get stuck for your team?\n\nWhich part of creative review would you clarify first?\n\nOption 1: The audience\nOption 2: The requested change\nOption 3: The reason for feedback\nOption 4: The final reviewer\n\nShare the reason behind your choice in a comment.",
+      "claim_ids": [],
+      "suggested_date": "2027-01-22",
+      "status": "draft",
+      "publish_allowed": false,
+      "review_flags": [
+        "Human review required: meaning, voice, claims, and final format"
+      ],
+      "characters": 276,
+      "words": 47
+    },
+    {
+      "id": "LI-07",
+      "format": "newsletter_draft",
+      "hook": "The creative review process deserves its own brief.",
+      "content": "The creative review process deserves its own brief.\n\nA practical guide to clearer creative review\n\nMake feedback specific enough that another person can act on it.\n\nPrinciple 1\nA useful creative brief names the audience and the decision the content should support.\n\nPrinciple 2\nFeedback is easier to act on when it identifies the specific passage and the desired change.\n\nPrinciple 3\nSeparating factual corrections from personal preferences helps a reviewer explain the reason for a request.\n\nPrinciple 4\nAssigning one final reviewer gives a draft a clear next step.\n\nReflection\nWhich part of creative review would you clarify first?",
+      "claim_ids": [
+        "C1",
+        "C2",
+        "C3",
+        "C4"
+      ],
+      "suggested_date": "2027-01-24",
+      "status": "draft",
+      "publish_allowed": false,
+      "review_flags": [
+        "Human review required: meaning, voice, claims, and final format"
+      ],
+      "characters": 633,
+      "words": 100
+    }
+  ],
+  "claims": [
+    {
+      "id": "C1",
+      "text": "A useful creative brief names the audience and the decision the content should support.",
+      "source_id": "S1",
+      "quote": "A useful creative brief names the audience and the decision the content should support."
+    },
+    {
+      "id": "C2",
+      "text": "Feedback is easier to act on when it identifies the specific passage and the desired change.",
+      "source_id": "S1",
+      "quote": "Feedback is easier to act on when it identifies the specific passage and the desired change."
+    },
+    {
+      "id": "C3",
+      "text": "Separating factual corrections from personal preferences helps a reviewer explain the reason for a request.",
+      "source_id": "S1",
+      "quote": "Separating factual corrections from personal preferences helps a reviewer explain the reason for a request."
+    },
+    {
+      "id": "C4",
+      "text": "Assigning one final reviewer gives a draft a clear next step.",
+      "source_id": "S1",
+      "quote": "Assigning one final reviewer gives a draft a clear next step."
+    }
+  ],
+  "sources": {
+    "S1": "Fictional workshop notes: A useful creative brief names the audience and the decision the content should support. Feedback is easier to act on when it identifies the specific passage and the desired change. Separating factual corrections from personal preferences helps a reviewer explain the reason for a request. Assigning one final reviewer gives a draft a clear next step."
+  },
+  "repetition_review": [
+    {
+      "assets": [
+        "LI-03",
+        "LI-04"
+      ],
+      "token_overlap": 0.76,
+      "action": "Review angle and spacing; reuse is expected across formats"
+    },
+    {
+      "assets": [
+        "LI-03",
+        "LI-07"
+      ],
+      "token_overlap": 0.75,
+      "action": "Review angle and spacing; reuse is expected across formats"
+    },
+    {
+      "assets": [
+        "LI-04",
+        "LI-07"
+      ],
+      "token_overlap": 0.81,
+      "action": "Review angle and spacing; reuse is expected across formats"
+    }
+  ],
+  "limits": "Templates render a human-vetted brief. Quotes are matched literally, not semantically verified. Counts are informational, not LinkedIn limit checks."
+}

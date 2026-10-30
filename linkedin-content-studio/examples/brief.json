@@ -1,0 +1,60 @@
+{
+  "synthetic": true,
+  "topic": "Clearer creative feedback",
+  "audience": "Agency founders and marketing team leads",
+  "thesis": "Make feedback specific enough that another person can act on it.",
+  "question": "Which part of creative review would you clarify first?",
+  "newsletter_title": "A practical guide to clearer creative review",
+  "voice": {
+    "banned_phrases": [
+      "game-changing",
+      "guaranteed results"
+    ]
+  },
+  "sources": {
+    "S1": "Fictional workshop notes: A useful creative brief names the audience and the decision the content should support. Feedback is easier to act on when it identifies the specific passage and the desired change. Separating factual corrections from personal preferences helps a reviewer explain the reason for a request. Assigning one final reviewer gives a draft a clear next step."
+  },
+  "claims": [
+    {
+      "id": "C1",
+      "text": "A useful creative brief names the audience and the decision the content should support.",
+      "source_id": "S1",
+      "quote": "A useful creative brief names the audience and the decision the content should support."
+    },
+    {
+      "id": "C2",
+      "text": "Feedback is easier to act on when it identifies the specific passage and the desired change.",
+      "source_id": "S1",
+      "quote": "Feedback is easier to act on when it identifies the specific passage and the desired change."
+    },
+    {
+      "id": "C3",
+      "text": "Separating factual corrections from personal preferences helps a reviewer explain the reason for a request.",
+      "source_id": "S1",
+      "quote": "Separating factual corrections from personal preferences helps a reviewer explain the reason for a request."
+    },
+    {
+      "id": "C4",
+      "text": "Assigning one final reviewer gives a draft a clear next step.",
+      "source_id": "S1",
+      "quote": "Assigning one final reviewer gives a draft a clear next step."
+    }
+  ],
+  "hooks": [
+    "Before asking for another revision, clarify the decision.",
+    "More feedback does not automatically mean clearer feedback.",
+    "Four checks before you return a creative draft.",
+    "From vague comments to actionable creative feedback.",
+    "A short script for explaining your next revision.",
+    "Where does creative review get stuck for your team?",
+    "The creative review process deserves its own brief."
+  ],
+  "poll_options": [
+    "The audience",
+    "The requested change",
+    "The reason for feedback",
+    "The final reviewer"
+  ],
+  "start_date": "2027-01-11",
+  "timezone": "America/Hermosillo"
+}

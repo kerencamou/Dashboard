@@ -6,6 +6,12 @@ This portfolio prototype demonstrates human judgment supported by AI: structured
 
 All people, organizations, dates, and situations in the examples are synthetic. No private client materials are included.
 
+## Additional project: LinkedIn Multi-Content Studio
+
+[Open the LinkedIn project](linkedin-content-studio/README.md) · [Read the generated demo pack](linkedin-content-studio/examples/expected/content_pack.md)
+
+Build seven draft formats from a vetted fictional brief: insight, contrarian, checklist, carousel outline, video script, poll, and newsletter draft. Includes source tracking, repetition review, a two-week editorial CSV, and seven additional tests. Offline template prototype; no AI API or publishing integration.
+
 ## Quick start
 
 Requires Python 3.10+; no third-party packages, API keys, or network access required.
